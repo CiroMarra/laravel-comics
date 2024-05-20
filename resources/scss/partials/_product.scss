@@ -1,0 +1,18 @@
+@use './variables' as *;
+.card-body {
+    background-color: transparent !important;
+    border: transparent !important;
+    border-color: none !important;
+}
+
+.card {
+    background-color: transparent !important;
+    border: transparent !important;
+    border-color: none !important;
+
+}
+
+.card img {
+    width: 80px;
+    height: 100px;
+}

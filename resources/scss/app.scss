@@ -1,1 +1,12 @@
+@use './partials/variables' as *;
+@use './partials/_header';
+@use './partials/_hero';
+@use './partials/_comics';
+@use './partials/_main';
+@use './partials/_product';
 @import '~bootstrap/scss/bootstrap';
+
+
+* {
+    color: white;
+}

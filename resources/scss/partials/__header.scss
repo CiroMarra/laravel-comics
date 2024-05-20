@@ -1,0 +1,36 @@
+@use './variables' as *;
+
+
+nav {
+
+    ul {
+
+        margin: 0;
+    
+    
+        li {
+            padding: 8px;
+            list-style: none;
+           
+            &.active{
+                border-bottom: 4px solid #0282f9;
+
+    
+                a {
+                    color: $brand_primary;
+                }
+             
+             }
+        }
+    
+        a {
+    
+            text-decoration: none;
+            font-weight: bolder;
+            color: black;
+            font-size: 15px;
+        }
+    
+     
+    }
+}
